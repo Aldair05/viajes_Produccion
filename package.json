@@ -1,0 +1,28 @@
+{
+  "name": "intro-node",
+  "version": "1.0.0",
+  "description": "Aprendiendo NodeJS Express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node server"
+  },
+  "author": "Aldair Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "balanced-match": "^1.0.0",
+    "bcrypt": "^4.0.1",
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fixed": "^0.3.1",
+    "it": "^1.1.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.2",
+    "pug": "^2.0.4",
+    "sequelize": "^5.21.6"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
